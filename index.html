@@ -1,0 +1,37 @@
+<!--
+WEB 151
+M3T1
+EVANS
+2/13/19
+-->
+
+<html>
+	<head>
+	</head>
+	
+	<body>
+		<h1><center> Insult Generator </center></h1>
+		
+		<script>
+		//print an array
+		
+		var body = ["head", "neck", "body", "face"];
+		
+		var roast = ["back of", "crusty", "stank", "stale"];
+		
+		var word = ["a cereal box", "corn chip", "donkey", "waffle"];
+		
+		
+		var randomBody = body[Math.floor(Math.random() * 4)];
+		
+		var randomRoast = roast[Math.floor(Math.random() * 4)];
+		
+		var randomWord = word[Math.floor(Math.random() * 4)];
+		
+		var insult = "Yo " + randomBody + " built like a " + randomRoast + " " + randomWord + " !!!";
+		
+		document.write(insult);
+		
+		</script>
+	</body>
+</html>
